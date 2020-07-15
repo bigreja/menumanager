@@ -30,6 +30,8 @@ class MenuItem extends DataObject implements PermissionProvider
         'MenuTitle' => 'Varchar(255)',
         // This field is used for external links (picking a page from the dropdown will overwrite this link)
         'Link' => 'Text',
+        // Anchor field to get links inside a page
+        'Anchor' => 'Text',
         // Sort order
         'Sort' => 'Int',
         // Can be used as a check for adding target="_blank"
@@ -137,6 +139,8 @@ class MenuItem extends DataObject implements PermissionProvider
                 )
                     ->setDescription('Leave blank if you wish to manually specify the URL below.'),
                 TextField::create('Link', 'URL')
+                    ->setDescription('Enter a full URL to link to another website.'),
+               TextField::create('Anchor', 'Anchor text without #')
                     ->setDescription('Enter a full URL to link to another website.'),
                 CheckboxField::create('IsNewWindow', 'Open in a new window?')
             ]);
