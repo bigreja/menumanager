@@ -140,8 +140,8 @@ class MenuItem extends DataObject implements PermissionProvider
                     ->setDescription('Leave blank if you wish to manually specify the URL below.'),
                 TextField::create('Link', 'URL')
                     ->setDescription('Enter a full URL to link to another website.'),
-               TextField::create('Anchor', 'Anchor text without #')
-                    ->setDescription('Enter a full URL to link to another website.'),
+               TextField::create('Anchor', 'Anchor text without  #')
+                    ->setDescription('Enter a anchor text inside page.'),
                 CheckboxField::create('IsNewWindow', 'Open in a new window?')
             ]);
 
