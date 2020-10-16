@@ -20,9 +20,6 @@
 			"Heyday\\MenuManager\\": "src/"
 		}
 	},
-	"extra": {
-		"dev-master": "3.0.x-dev"
-	},
 	"minimum-stability": "dev",
 	"prefer-stable": true
 }
