@@ -8,7 +8,13 @@
 			"name": "Heyday Developers",
 			"email": "dev@heyday.co.nz",
 			"role": "Developer"
+		},
+		{
+			"name": "Bruno Igreja",
+			"email": "bigreja@sapo.pt",
+			"role": "Developer"
 		}
+
 	],
 	"autoload": {
 		"psr-4": {
