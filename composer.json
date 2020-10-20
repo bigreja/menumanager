@@ -17,8 +17,6 @@
 
 	],
 	"require": {
-		"silverstripe/framework": "^4.5.0",
-		"silverstripe/vendor-plugin": "^1.0",
 		"symbiote/silverstripe-gridfieldextensions": "^3.0"
 	},
 	"autoload": {
