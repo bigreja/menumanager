@@ -50,7 +50,9 @@ Heyday\MenuManager\MenuSet:
     - Main
     - Footer
 ```
+### CHANGES TO Heyday Branch
 
+I've added a new field for #anchor links so you can select an anchor on a silverstripe page.
 
 ### Creating MenuItems
 
